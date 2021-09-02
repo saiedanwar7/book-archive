@@ -68,8 +68,8 @@ const displaySearchResult = booklist => {
         <img height="400" src="${imgUrl}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title fs-4 mb-2">${book.title}</h5>
-            <p class="card-text mb-0"><span class="fw-normal">Author Name :</span> ${authorName} </p>
-            <p class="card-text mb-0"><span class="">Publisher :</span> ${publisher} </p>
+            <p class="card-text mb-0"><span class="fw-bold fs-6">Author Name :</span> ${authorName} </p>
+            <p class="card-text mb-0"><span class="fw-bold fs-6">Publisher :</span> ${publisher} </p>
             <p class=""><span class="fw-bold fs-6">First Published :</span> ${book?.first_publish_year} </p>
             
         </div>
